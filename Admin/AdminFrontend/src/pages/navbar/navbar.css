@@ -1,0 +1,143 @@
+
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    color: #ffffff;
+  }
+  
+  .navbar-brand {
+    color: #615f5f;
+    font-size: 1.25rem;
+    text-decoration: none;
+  }
+  .navbar .navbar-content {
+    flex-grow: 1; /* Grow to fill remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .search-bar{
+    border-right:none !important;
+  }
+    .search-bar:hover{
+      border-color:none !important;
+    }
+    .search-icon{
+      border-left: none !important;
+    }
+    .input-group-text {
+      background-color:white !important;
+    }
+  .bi-person-circle {
+    font-size:40px;
+  }
+  /* input[type="search"] {
+    background-color: #3c5164;
+    border: none;
+    border-radius: 15px;
+  }
+  
+  i.bi.bi-search {
+    color: #5e7ff4 !important;
+    font-size: 16px;
+  } */
+  
+  .search-btn {
+    border: none !important;
+  }
+  .user-profile{
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    background-color: rgb(243, 149, 8);
+    padding:3px;
+
+  }
+  /* .input-group {
+    background-color: #3c5164;
+    border-radius: 15px;
+    border: none;
+  } */
+  
+  /* input::placeholder {
+    color: rgb(159, 155, 163) !important;
+  } */
+  
+  .navbar-collapse {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .form-control {
+    width: 200px;
+  }
+  
+  .btn-outline-success {
+    margin-left: 0.5rem;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar-logo {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .icon-circle {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #464b50;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  
+  .text-semi-light-blue {
+    color: #edc411;
+    font-size: 16px;
+  }
+  .bg-light-yellow{
+    background-color: rgb(38, 114, 114) !important;
+  }
+  
+  /* Responsive styling */
+  /* @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+    }
+  
+    .navbar-nav .nav-item {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .d-flex {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .form-control {
+      width: 100%;
+    }
+  } */
+  h3{
+    font-style:italic;
+    color:#e88b49 !important;
+  }
+  
+  .list,.cross{
+    font-size:40px;
+    color:white;
+  }

@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+    .container-fluid .d-flex {
+        flex-direction: row !important;
+    }
+}
